@@ -5,31 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Profile card component</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  
+  <img src="./images/bg-pattern-top.svg" alt="" class="pattern top">
 
-  80K
-  Followers
+  <article class="profile-card">
+    <img src="./images/bg-pattern-card.svg" alt="">
+    <img class="profile-pic" src="./images/image-victor.jpg" alt="Victor's profile picture.">
+    <section class="profile-heading">
+      <h1>Victor Crest</h1>
+      <p>26</p>
+    </section>
+    <section class="location">London</section>
+    <section class="stats">
+      <div class="stats-followers">
+        <p class="num">80K</p>
+        <p class="stat-type">Followers</p>
+      </div>
+      <div class="stats-likes">
+        <p class="num">803K</p>
+        <p class="stat-type">Likes</p>
+      </div>
+      <div class="stats-photos">
+        <p class="num">1.4K</p>
+        <p class="stat-type">Photos</p>
+      </div>
+    </section>
+  </article>
 
-  803K
-  Likes
+  <img src="./images/bg-pattern-bottom.svg" alt="" class="pattern bottom">
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
