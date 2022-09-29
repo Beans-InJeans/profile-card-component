@@ -96,3 +96,21 @@ hr {
     font-weight: 700;
 }
 
+@media (min-width: 650px) {
+    .profile-card {
+        max-width: 22rem;
+    }
+
+    .profile-pic {
+        max-width: 14rem;
+    }
+
+    .stats {
+        gap: 2.5rem;
+    }
+
+    body {
+        background-position: -9rem -21rem, 36rem 30rem;
+        background-size: 50rem;
+    }
+}
