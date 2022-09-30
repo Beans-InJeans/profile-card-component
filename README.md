@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here] (https://github.com/Beans-InJeans/profile-card-component/)
-- Live Site URL: [Add live site URL here] (https://beans-injeans.github.io/profile-card-component/)
+- Solution URL: https://github.com/Beans-InJeans/profile-card-component/
+- Live Site URL: https://beans-injeans.github.io/profile-card-component/
 
 ## My process
 
@@ -49,5 +49,5 @@ I would like to be more comfortable moving background images around in a respons
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Beans-InJeans)
+- Frontend Mentor - [@Beans-InJeans](https://www.frontendmentor.io/profile/Beans-InJeans)
 
